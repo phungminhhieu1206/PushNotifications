@@ -9,6 +9,7 @@ const App = () => {
   useEffect(() => {
     requestUserPermission();
     NotificationServices();
+    console.log('hello');
   }, []);
 
   return (
